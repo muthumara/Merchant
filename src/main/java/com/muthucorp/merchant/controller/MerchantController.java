@@ -22,5 +22,12 @@ public class MerchantController {
     	return service.getItemsList();
     	
     }
+    
+	@RequestMapping(value="/health", method = RequestMethod.GET)
+	public static String getHealth() {
+		
+	 System.out.println("Application health ok......");
+	 return "ok";
+	}
 
 }

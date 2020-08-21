@@ -9,11 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@RequestMapping("/merchant")
 public class MerchantApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MerchantApplication.class, args);
 	}
-
+	
 }
